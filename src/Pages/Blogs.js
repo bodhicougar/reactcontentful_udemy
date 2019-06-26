@@ -3,7 +3,6 @@ import client from '../Pages/Client'
 import BlackLoader from '../images/black-loader.gif'
 import { Link } from 'react-router-dom'
 
-
 class Blogs extends Component {
     constructor() {
         super()
