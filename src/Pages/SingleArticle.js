@@ -35,21 +35,21 @@ class SingleArticle extends Component {
     render() {
         return (
             <div>
-            {this.state.article.length === 0 ?
+                {this.state.article.length === 0 ?
                     <div align="center" className="pt-5"> <img src={BlackLoader} alt="Loader" /> </div>
                     :
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
                                 <h2 className="mt-4">{this.state.article.fields.blogTitle}</h2>
-                                <p dangerouslySetInnerHTML = {this.getParsedMarkdown(this.state.article.fields.blogDescription)}></p>
-                                <p style={{textAlign:'right', cursor:'pointer', fontWeight:'bold'}}><Link to ="#" onClick={this.redirectToTarget}>Back</Link></p>
+                                <p dangerouslySetInnerHTML={this.getParsedMarkdown(this.state.article.fields.blogDescription)}></p>
+                                <p style={{ textAlign: 'right', cursor: 'pointer', fontWeight: 'bold' }}><Link to="#" onClick={this.redirectToTarget}>Back</Link></p>
 
                             </div>
                         </div>
 
                     </div>
-            }
+                }
             </div>
         )
     }
