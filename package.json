@@ -4,8 +4,9 @@
   "private": true,
   "dependencies": {
     "contentful": "^7.8.0",
-    "marked": "^0.6.2",
+    "marked": "^0.7.0",
     "netlify-cli": "^2.11.23",
+    "netlify-cms": "^2.9.7",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
