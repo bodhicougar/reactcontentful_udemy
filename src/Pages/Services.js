@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import client from '../Pages/Client';
 import loader from '../images/loader.gif';
-import CMS from 'netlify-cms';
 
 class Services extends Component {
   constructor() {

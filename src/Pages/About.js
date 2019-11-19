@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import client from './Client';
 import BlackLoader from '../images/black-loader.gif';
 import marked from 'marked';
-import CMS from 'netlify-cms';
+// import CMS from 'netlify-cms';
 
 class About extends Component {
   constructor() {

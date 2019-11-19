@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import client from '../Pages/Client';
 import BlackLoader from '../images/black-loader.gif';
 import { Link } from 'react-router-dom';
-import CMS from 'netlify-cms';
 
 class Blogs extends Component {
   constructor() {
